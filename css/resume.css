@@ -1,0 +1,188 @@
+body {
+  background-color: #0a090f;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px;
+  padding: 0;
+}
+p,
+a {
+  text-shadow: 1px 1px 1px #0a090f;
+  margin: 10px;
+  padding: 0;
+}
+section {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 1px 1px 2px 1px #223241;
+  -webkit-box-shadow: 1px 1px 2px 1px #223241;
+  box-shadow: 1px 1px 2px 1px #223241;
+  background-color: #0a090f;
+  margin: 10px 0;
+  padding: 10px;
+}
+#mainContainer {
+  background-color: rgba(215, 226, 237, 0.75);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: inset 0px 0px 5px #000000;
+  -webkit-box-shadow: inset 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 5px #000000;
+  margin: 10px auto;
+  padding: 20px;
+  width: 960px;
+}
+#mainHeader {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 1px 1px 2px 1px #223241;
+  -webkit-box-shadow: 1px 1px 2px 1px #223241;
+  box-shadow: 1px 1px 2px 1px #223241;
+  margin: 0;
+  padding: 5px;
+  background-color: #0a090f;
+}
+#mainHeader h1 {
+  font-family: "chunk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  text-shadow: 2px 2px 1px #223241;
+  color: #ff6a00;
+}
+#mainHeader h2 {
+  text-shadow: 2px 2px 1px #223241;
+  color: #d7e2ed;
+}
+#info h2 {
+  font-family: "chunk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 2px 2px 1px #223241;
+  color: #ff6a00;
+}
+#info a {
+  cursor: pointer;
+  margin: 10px;
+  text-decoration: none;
+  color: #9ab6cc;
+}
+#info a:hover {
+  color: #d7e2ed;
+}
+#about h2 {
+  font-family: "chunk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 2px 2px 1px #223241;
+  color: #ff6a00;
+}
+#about p {
+  line-height: 20px;
+  color: #9ab6cc;
+}
+#experienceTitle {
+  font-family: "chunk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 2px 2px 1px #223241;
+  color: #ff6a00;
+}
+.company {
+  margin: 10px;
+  background-color: #223241;
+}
+.company h2 {
+  text-shadow: 2px 2px 1px #101624;
+  color: #d7e2ed;
+}
+.company h3 {
+  text-shadow: 2px 2px 1px #101624;
+  color: #9ab6cc;
+}
+.company h4 {
+  text-shadow: 2px 2px 1px #101624;
+  color: #d7e2ed;
+}
+.company h4:before {
+  text-shadow: 2px 2px 1px #101624;
+  color: #9ab6cc;
+  content: "Clients: ";
+}
+.company h5 {
+  text-shadow: 2px 2px 1px #101624;
+  color: #9ab6cc;
+}
+.company p {
+  color: #d7e2ed;
+}
+#educationTitle {
+  font-family: "chunk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 2px 2px 1px #223241;
+  color: #ff6a00;
+}
+.school {
+  margin: 10px;
+  background-color: #223241;
+}
+.school h2 {
+  text-shadow: 1px 1px 3px #101624;
+  color: #d7e2ed;
+}
+.school h3 {
+  text-shadow: 2px 2px 1px #101624;
+  color: #9ab6cc;
+}
+.school h4 {
+  text-shadow: 2px 2px 1px #101624;
+  color: #9ab6cc;
+}
+.school p {
+  color: #d7e2ed;
+}
+#skills h2 {
+  font-family: "chunk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 2px 2px 1px #223241;
+  color: #ff6a00;
+}
+#skills h3 {
+  text-shadow: 1px 1px 3px #0a090f;
+  color: #9ab6cc;
+}
+#interests h2 {
+  font-family: "chunk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 2px 2px 1px #223241;
+  color: #ff6a00;
+}
+#interests h3 {
+  text-shadow: 1px 1px 3px #0a090f;
+  color: #9ab6cc;
+}
