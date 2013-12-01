@@ -1,0 +1,70 @@
+/////////////
+////RESUME CSS
+/////////////
+
+///////////////////////////
+//COLOUR SCHEME
+///////////////////////////
+@black: #000;
+@dark-blue: #225378;
+@med-blue: #1695a3;
+@light-blue: #acf0f2;
+@white: #fff;
+@orange: #eb7f00;
+
+@green: #54574F;
+@beige: #D7AF67;
+@gold: #A3681C;
+@cream: #F1D7B2;
+@brown: #352F2F;
+
+///////////////////////////
+//Mixins
+///////////////////////////
+.rounded-corners (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.shadow (@hOffset: inset, @vOffset: 0px, @blur: 0px, @spread: 5px, @color: #000) {
+  -moz-box-shadow: @hOffset @vOffset @blur @spread @color;
+  -webkit-box-shadow: @hOffset @vOffset @blur @spread @color;
+  box-shadow: @hOffset @vOffset @blur @spread @color;
+}
+
+.textShadow (@X: 1px, @Y: 1px, @blur: 3px, @color: #888) {
+  text-shadow: @X @Y @blur @color;
+}
+
+.transparentBG (@color, @alpha) {
+  background-color: rgba(red(@color), green(@color), blue(@color), @alpha);
+}
+
+///////////////////
+////GENERAL
+//////////////////
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+//////////////////
+////MAIN HEADER
+//////////////////
+#mainHeader {
+  margin: 0;
+  padding: 0;
+}
+
+//////////////////
+////MAIN CONTENT
+//////////////////
+#mainContainer {
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+}
