@@ -1,18 +1,20 @@
-/////////////
+/////////////////
 ////RESUME CSS
-/////////////
+/////////////////
 
 ///////////////////////////
-//COLOUR SCHEME
+////COLOUR SCHEME
 ///////////////////////////
 @colorOne: #0a090f;
 @colorTwo: #101624;
 @colorThree: #223241;
 @colorFour: #9ab6cc;
 @colorFive: #d7e2ed;
+@header: #ff6a00;//was colorFour
+@alphaColor: rgba(red(@colorThree), green(@colorThree), blue(@colorThree), 1);
 
 ///////////////////////////
-//Mixins
+////MIXINS
 ///////////////////////////
 .rounded-corners (@radius: 4px) {
   -webkit-border-radius: @radius;
@@ -34,6 +36,17 @@
 
 .transparentBG (@color, @alpha) {
   background-color: rgba(red(@color), green(@color), blue(@color), @alpha);
+}
+
+///////////////////////////
+////FONTS
+///////////////////////////
+.header (@size: 60px) {
+  font-family: "chunk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: @size;
 }
 
 ///////////////////
@@ -82,19 +95,20 @@ section {
 //////////////////
 #mainHeader {
   .rounded-corners();
-  .shadow(inset, 0, 0, 5px, @colorOne);
+  .shadow(1px, 1px, 2px, 1px, @colorThree);
   margin: 0;
   padding: 5px;
-  background-color: @colorThree;
+  background-color: @colorOne;
 }
 
 #mainHeader h1 {
-  .textShadow(1px, 1px, 3px, @colorThree);
-  color: @colorFour;
+  .header();
+  .textShadow(2px, 2px, 1px, @colorThree);
+  color: @header;
 }
 
 #mainHeader h2 {
-  .textShadow(1px, 1px, 3px, @colorThree);
+  .textShadow(2px, 2px, 1px, @colorThree);
   color: @colorFive;
 }
 
@@ -102,64 +116,75 @@ section {
 ////INFO
 //////////////////
 #info h2 {
-  .textShadow(1px, 1px, 3px, @colorTwo);
-  color: @colorFour;
+  .header(30px);
+  .textShadow(2px, 2px, 1px, @colorThree);
+  color: @header;
 }
 
 #info a {
   cursor: pointer;
   margin: 10px;
   text-decoration: none;
-  color: @colorFive;
+  color: @colorFour;//five
 }
 
 #info a:hover {
-  color: @colorFour;
+  color: @colorFive;
 }
 
 //////////////////
 ////ABOUT
 //////////////////
 #about h2 {
-  .textShadow(1px, 1px, 3px, @colorTwo);
-  color: @colorFour;
+  .header(30px);
+  .textShadow(2px, 2px, 1px, @colorThree);
+  color: @header;
 }
 
 #about p {
   line-height: 20px;
-  color: @colorFive;
+  color: @colorFour;
 }
 
 ///////////////////
 ////EXPERIENCE
 ///////////////////
 #experienceTitle {
-  .textShadow(1px, 1px, 3px, @colorTwo);
-  color: @colorFour;
+  .header(30px);
+  .textShadow(2px, 2px, 1px, @colorThree);
+  color: @header;
 }
 
 .company {
   margin: 10px;
-  .transparentBG(@colorFour, 0.5);
+  //.transparentBG(@colorFour, 0.5);
+  background-color: @colorThree;
 }
 
 .company h2 {
-  .textShadow(1px, 1px, 3px, @colorTwo);
+  .textShadow(2px, 2px, 1px, @colorTwo);
   color: @colorFive;
 }
 
 .company h3 {
-  .textShadow(1px, 1px, 1px, @colorThree);
-  color: @colorTwo;
+  .textShadow(2px, 2px, 1px, @colorTwo);
+  color: @colorFour;//colorFour
 }
 
 .company h4 {
-  .textShadow(1px, 1px, 1px, @colorOne);
+  .textShadow(2px, 2px, 1px, @colorTwo);
+  color: @colorFive;//colorTwo
+}
+
+.company h4:before {
+  .textShadow(2px, 2px, 1px, @colorTwo);
   color: @colorFour;
+  content: "Clients: ";
 }
 
 .company h5 {
-  color: @colorTwo;
+  .textShadow(2px, 2px, 1px, @colorTwo);
+  color: @colorFour;
 }
 
 .company p {
@@ -170,13 +195,14 @@ section {
 ////EDUCATION
 ///////////////////
 #educationTitle {
-  .textShadow(1px, 1px, 3px, @colorTwo);
-  color: @colorFour;
+  .header(30px);
+  .textShadow(2px, 2px, 1px, @colorThree);
+  color: @header;
 }
 
 .school {
   margin: 10px;
-  .transparentBG(@colorFour, 0.5);
+  background-color: @colorThree;
 }
 
 .school h2 {
@@ -185,12 +211,13 @@ section {
 }
 
 .school h3 {
-  .textShadow(1px, 1px, 1px, @colorThree);
-  color: @colorOne;
+  .textShadow(2px, 2px, 1px, @colorTwo);
+  color: @colorFour;
 }
 
 .school h4 {
-  color: @colorTwo;
+  .textShadow(2px, 2px, 1px, @colorTwo);
+  color: @colorFour;
 }
 
 .school p {
@@ -201,26 +228,28 @@ section {
 ////SKILLS
 ///////////////////
 #skills h2 {
-  .textShadow(1px, 1px, 3px, @colorTwo);
-  color: @colorFour;
+  .header(30px);
+  .textShadow(2px, 2px, 1px, @colorThree);
+  color: @header;
 }
 
 #skills h3 {
   .textShadow(1px, 1px, 3px, @colorOne);
-  color: @colorFive;
+  color: @colorFour;
 }
 
 ////////////////////
 ////INTERESTS
 ////////////////////
 #interests h2 {
-  .textShadow(1px, 1px, 3px, @colorTwo);
-  color: @colorFour;
+  .header(30px);
+  .textShadow(2px, 2px, 1px, @colorThree);
+  color: @header;
 }
 
 #interests h3 {
   .textShadow(1px, 1px, 3px, @colorOne);
-  color: @colorFive;
+  color: @colorFour;
 }
 
 ///////////////////////
