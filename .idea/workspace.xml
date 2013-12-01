@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2af20a2c-7b1c-4b93-9a8c-3a4b9c437d0d" name="Default" comment="">
+    <list default="true" id="2af20a2c-7b1c-4b93-9a8c-3a4b9c437d0d" name="Default" comment="Changes to colour scheme, added drop shadows on most of the text.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/linkedin.js" afterPath="$PROJECT_DIR$/js/linkedin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/resume.less" afterPath="$PROJECT_DIR$/css/resume.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,8 +31,19 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="37" selection-start="4025" selection-end="4025" vertical-scroll-proportion="0.5101089" vertical-offset="632" max-vertical-offset="1755">
+            <state line="12" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="0.2799378" vertical-offset="0" max-vertical-offset="1755">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linkedin.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/linkedin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="78" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +51,7 @@
       <file leaf-file-name="resume.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/resume.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="0" selection-start="2377" selection-end="2377" vertical-scroll-proportion="-5.625" vertical-offset="1695" max-vertical-offset="3975">
+            <state line="46" column="19" selection-start="1235" selection-end="1235" vertical-scroll-proportion="-28.75" vertical-offset="0" max-vertical-offset="3960">
               <folding />
             </state>
           </provider>
@@ -64,6 +76,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/linkedin.js" />
         <option value="$PROJECT_DIR$/css/resume.less" />
       </list>
     </option>
@@ -201,7 +214,11 @@
       <created>1385930116186</created>
       <updated>1385930116186</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes to colour scheme, added drop shadows on most of the text.">
+      <created>1385933613749</created>
+      <updated>1385933613749</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -237,7 +254,8 @@
     </option>
     <MESSAGE value="Roughed in basic resume structure." />
     <MESSAGE value="Styled resume and added TypeKit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Styled resume and added TypeKit." />
+    <MESSAGE value="Changes to colour scheme, added drop shadows on most of the text." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to colour scheme, added drop shadows on most of the text." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -250,16 +268,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/linkedin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="78" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/resume.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="2377" selection-end="2377" vertical-scroll-proportion="-5.625" vertical-offset="1695" max-vertical-offset="3975">
+        <state line="46" column="19" selection-start="1235" selection-end="1235" vertical-scroll-proportion="-28.75" vertical-offset="0" max-vertical-offset="3960">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="37" selection-start="4025" selection-end="4025" vertical-scroll-proportion="0.5101089" vertical-offset="632" max-vertical-offset="1755">
+        <state line="12" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="0.2799378" vertical-offset="0" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
