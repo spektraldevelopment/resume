@@ -5,23 +5,16 @@
 ///////////////////////////
 //COLOUR SCHEME
 ///////////////////////////
-@black: #000;
-@dark-blue: #225378;
-@med-blue: #1695a3;
-@light-blue: #acf0f2;
-@white: #fff;
-@orange: #eb7f00;
-
-@green: #54574F;
-@beige: #D7AF67;
-@gold: #A3681C;
-@cream: #F1D7B2;
-@brown: #352F2F;
+@colorOne: #0a090f;
+@colorTwo: #101624;
+@colorThree: #223241;
+@colorFour: #9ab6cc;
+@colorFive: #d7e2ed;
 
 ///////////////////////////
 //Mixins
 ///////////////////////////
-.rounded-corners (@radius: 5px) {
+.rounded-corners (@radius: 4px) {
   -webkit-border-radius: @radius;
   -moz-border-radius: @radius;
   -ms-border-radius: @radius;
@@ -48,23 +41,190 @@
 //////////////////
 
 body {
+  background-color: @colorOne;
   margin: 0;
   padding: 0;
 }
 
-//////////////////
-////MAIN HEADER
-//////////////////
-#mainHeader {
-  margin: 0;
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px;
   padding: 0;
+}
+
+p, a {
+  .textShadow(1px, 1px, 1px, @colorOne);
+  margin: 10px;
+  padding: 0;
+}
+
+section {
+  .rounded-corners();
+  .shadow(1px, 1px, 2px, 1px, @colorThree);
+  background-color: @colorOne;
+  margin: 10px 0;
+  padding: 10px;
 }
 
 //////////////////
 ////MAIN CONTENT
 //////////////////
 #mainContainer {
-  margin: 0 auto;
-  padding: 0;
+  .transparentBG(@colorFive, 0.75);
+  .rounded-corners();
+  .shadow();
+  margin: 10px auto;
+  padding: 20px;
   width: 960px;
 }
+
+//////////////////
+////MAIN HEADER
+//////////////////
+#mainHeader {
+  .rounded-corners();
+  .shadow(inset, 0, 0, 5px, @colorOne);
+  margin: 0;
+  padding: 5px;
+  background-color: @colorThree;
+}
+
+#mainHeader h1 {
+  .textShadow(1px, 1px, 3px, @colorThree);
+  color: @colorFour;
+}
+
+#mainHeader h2 {
+  .textShadow(1px, 1px, 3px, @colorThree);
+  color: @colorFive;
+}
+
+//////////////////
+////INFO
+//////////////////
+#info h2 {
+  .textShadow(1px, 1px, 3px, @colorTwo);
+  color: @colorFour;
+}
+
+#info a {
+  cursor: pointer;
+  margin: 10px;
+  text-decoration: none;
+  color: @colorFive;
+}
+
+#info a:hover {
+  color: @colorFour;
+}
+
+//////////////////
+////ABOUT
+//////////////////
+#about h2 {
+  .textShadow(1px, 1px, 3px, @colorTwo);
+  color: @colorFour;
+}
+
+#about p {
+  line-height: 20px;
+  color: @colorFive;
+}
+
+///////////////////
+////EXPERIENCE
+///////////////////
+#experienceTitle {
+  .textShadow(1px, 1px, 3px, @colorTwo);
+  color: @colorFour;
+}
+
+.company {
+  margin: 10px;
+  .transparentBG(@colorFour, 0.5);
+}
+
+.company h2 {
+  .textShadow(1px, 1px, 3px, @colorTwo);
+  color: @colorFive;
+}
+
+.company h3 {
+  .textShadow(1px, 1px, 1px, @colorThree);
+  color: @colorTwo;
+}
+
+.company h4 {
+  .textShadow(1px, 1px, 1px, @colorOne);
+  color: @colorFour;
+}
+
+.company h5 {
+  color: @colorTwo;
+}
+
+.company p {
+  color: @colorFive;
+}
+
+///////////////////
+////EDUCATION
+///////////////////
+#educationTitle {
+  .textShadow(1px, 1px, 3px, @colorTwo);
+  color: @colorFour;
+}
+
+.school {
+  margin: 10px;
+  .transparentBG(@colorFour, 0.5);
+}
+
+.school h2 {
+  .textShadow(1px, 1px, 3px, @colorTwo);
+  color: @colorFive;
+}
+
+.school h3 {
+  .textShadow(1px, 1px, 1px, @colorThree);
+  color: @colorOne;
+}
+
+.school h4 {
+  color: @colorTwo;
+}
+
+.school p {
+  color: @colorFive;
+}
+
+///////////////////
+////SKILLS
+///////////////////
+#skills h2 {
+  .textShadow(1px, 1px, 3px, @colorTwo);
+  color: @colorFour;
+}
+
+#skills h3 {
+  .textShadow(1px, 1px, 3px, @colorOne);
+  color: @colorFive;
+}
+
+////////////////////
+////INTERESTS
+////////////////////
+#interests h2 {
+  .textShadow(1px, 1px, 3px, @colorTwo);
+  color: @colorFour;
+}
+
+#interests h3 {
+  .textShadow(1px, 1px, 3px, @colorOne);
+  color: @colorFive;
+}
+
+///////////////////////
+////
+////RESPONSIVE LAYOUT
+////
+///////////////////////
