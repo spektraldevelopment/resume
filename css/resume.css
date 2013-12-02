@@ -122,28 +122,28 @@ section {
   margin: 10px;
   background-color: #223241;
 }
-.company h2 {
+.title {
   text-shadow: 2px 2px 1px #101624;
   color: #d7e2ed;
 }
-.company h3 {
+.companyName {
   text-shadow: 2px 2px 1px #101624;
   color: #9ab6cc;
 }
-.company h4 {
+.clients {
   text-shadow: 2px 2px 1px #101624;
   color: #d7e2ed;
 }
-.company h4:before {
+.clients:before {
   text-shadow: 2px 2px 1px #101624;
   color: #9ab6cc;
   content: "Clients: ";
 }
-.company h5 {
+.duration {
   text-shadow: 2px 2px 1px #101624;
   color: #9ab6cc;
 }
-.company p {
+.description {
   color: #d7e2ed;
 }
 #educationTitle {
@@ -158,19 +158,19 @@ section {
   margin: 10px;
   background-color: #223241;
 }
-.school h2 {
+.institution {
   text-shadow: 1px 1px 3px #101624;
   color: #d7e2ed;
 }
-.school h3 {
+.program {
   text-shadow: 2px 2px 1px #101624;
   color: #9ab6cc;
 }
-.school h4 {
+.duration {
   text-shadow: 2px 2px 1px #101624;
   color: #9ab6cc;
 }
-.school p {
+.accolades {
   color: #d7e2ed;
 }
 #skills h2 {
