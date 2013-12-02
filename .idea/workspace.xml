@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2af20a2c-7b1c-4b93-9a8c-3a4b9c437d0d" name="Default" comment="Added Contact Me link, re-ordered links, remove public LinkedIn profile link since this page serves that purpose.">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/linkedin.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    <list default="true" id="2af20a2c-7b1c-4b93-9a8c-3a4b9c437d0d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="resume.iws" />
@@ -30,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-15.625" vertical-offset="195" max-vertical-offset="1950">
+            <state line="38" column="0" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="1950">
               <folding>
                 <element signature="n#style#0;n#span#0;n#noscript#0;n#span#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -41,7 +40,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="2365" selection-end="2365" vertical-scroll-proportion="0.86764705" vertical-offset="580" max-vertical-offset="1260">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -295,7 +294,11 @@
       <created>1385948272818</created>
       <updated>1385948272818</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Renamed linkedin.js because it will be used for non-linkedin stuff. Added basic Google Analytics tracking. Will test to confirm.">
+      <created>1385950028393</created>
+      <updated>1385950028393</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -342,7 +345,8 @@
     <MESSAGE value="Change to css to target just experienceTitle and educationTitle with FOUT suppression." />
     <MESSAGE value="Added some basic responsiveness to the layout if the width of the viewport goes below 1000px." />
     <MESSAGE value="Added Contact Me link, re-ordered links, remove public LinkedIn profile link since this page serves that purpose." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Contact Me link, re-ordered links, remove public LinkedIn profile link since this page serves that purpose." />
+    <MESSAGE value="Renamed linkedin.js because it will be used for non-linkedin stuff. Added basic Google Analytics tracking. Will test to confirm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed linkedin.js because it will be used for non-linkedin stuff. Added basic Google Analytics tracking. Will test to confirm." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -387,7 +391,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-15.625" vertical-offset="195" max-vertical-offset="1950">
+        <state line="38" column="0" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="1950">
           <folding>
             <element signature="n#style#0;n#span#0;n#noscript#0;n#span#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -396,7 +400,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2365" selection-end="2365" vertical-scroll-proportion="0.86764705" vertical-offset="580" max-vertical-offset="1260">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
