@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2af20a2c-7b1c-4b93-9a8c-3a4b9c437d0d" name="Default" comment="">
+    <list default="true" id="2af20a2c-7b1c-4b93-9a8c-3a4b9c437d0d" name="Default" comment="Added Contact Me link, re-ordered links, remove public LinkedIn profile link since this page serves that purpose.">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/linkedin.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -26,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="76" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.62986004" vertical-offset="135" max-vertical-offset="1740">
+            <state line="38" column="0" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-15.625" vertical-offset="195" max-vertical-offset="1950">
               <folding>
                 <element signature="n#style#0;n#span#0;n#noscript#0;n#span#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -37,11 +38,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linkedin.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/linkedin.js">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-              <folding />
+            <state line="78" column="0" selection-start="2365" selection-end="2365" vertical-scroll-proportion="0.86764705" vertical-offset="580" max-vertical-offset="1260">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +79,7 @@
         <option value="$PROJECT_DIR$/js/linkedin.js" />
         <option value="$PROJECT_DIR$/css/resume.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -287,7 +291,11 @@
       <created>1385945307821</created>
       <updated>1385945307821</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Contact Me link, re-ordered links, remove public LinkedIn profile link since this page serves that purpose.">
+      <created>1385948272818</created>
+      <updated>1385948272818</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -298,6 +306,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.670904" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -308,7 +317,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -333,7 +341,8 @@
     <MESSAGE value="Added css to suppress FOUT when Typekit is loading on elements that are using it." />
     <MESSAGE value="Change to css to target just experienceTitle and educationTitle with FOUT suppression." />
     <MESSAGE value="Added some basic responsiveness to the layout if the width of the viewport goes below 1000px." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some basic responsiveness to the layout if the width of the viewport goes below 1000px." />
+    <MESSAGE value="Added Contact Me link, re-ordered links, remove public LinkedIn profile link since this page serves that purpose." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Contact Me link, re-ordered links, remove public LinkedIn profile link since this page serves that purpose." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -348,10 +357,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/linkedin.js">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -367,13 +378,6 @@
         <state line="17" column="7" selection-start="396" selection-end="396" vertical-scroll-proportion="0.38931298" vertical-offset="0" max-vertical-offset="7995" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/linkedin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/resume.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="335" column="16" selection-start="5750" selection-end="5750" vertical-scroll-proportion="-22.333334" vertical-offset="4489" max-vertical-offset="5145">
@@ -383,9 +387,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="76" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.62986004" vertical-offset="135" max-vertical-offset="1740">
+        <state line="38" column="0" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-15.625" vertical-offset="195" max-vertical-offset="1950">
           <folding>
             <element signature="n#style#0;n#span#0;n#noscript#0;n#span#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="2365" selection-end="2365" vertical-scroll-proportion="0.86764705" vertical-offset="580" max-vertical-offset="1260">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

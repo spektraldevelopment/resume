@@ -30,11 +30,11 @@
 
             <section id="info">
                 <h2>Info</h2>
-                <a href="http://www.linkedin.com/profile/view?id=18268948">LinkedIn</a>
+                <a id="linkedIn" href="http://www.linkedin.com/profile/view?id=18268948">LinkedIn</a>
                 <span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:fcrxgenyqrirybczrag@tznvy.pbz?fhowrpg=Fcrxgenyqrirybczrag.pbz Erfhzr: R-Znvy\" >Pbagnpg Zr</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});</script>
                 <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">moc.liamg@tnempolevedlartkeps</span></noscript></span>
-                <a href="http://www.spektraldevelopment.com">Spektral Projects</a>
-                <a href="https://github.com/spektraldevelopment">Git Hub</a>
+                <a id="spektralProjects" href="http://www.spektraldevelopment.com">Spektral Projects</a>
+                <a id="gitHub" href="https://github.com/spektraldevelopment">Git Hub</a>
             </section>
 
             <section id="about">
@@ -103,8 +103,22 @@
                 var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
             })();
         </script>
-        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>-->
-        <!--<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>-->
-        <!--<script src="js/linkedin.js"></script>-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics -->
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-33460694-1']);
+            _gaq.push(['_trackPageview', 'Resume']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        <!-- End Google Analytics -->
     </body>
 </html>
