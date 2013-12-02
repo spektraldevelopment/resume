@@ -3,8 +3,9 @@
 /////////////////
 
 ///////////////////////////
-////COLOUR SCHEME
+////VARS
 ///////////////////////////
+//COLOUR SCHEME
 @colorOne: #0a090f;
 @colorTwo: #101624;
 @colorThree: #223241;
@@ -12,6 +13,9 @@
 @colorFive: #d7e2ed;
 @header: #ff6a00;//was colorFour
 @alphaColor: rgba(red(@colorThree), green(@colorThree), blue(@colorThree), 1);
+
+//NUMBERS
+@mobileWidth: 1000px;
 
 ///////////////////////////
 ////MIXINS
@@ -321,7 +325,14 @@ section {
 }
 
 ///////////////////////
-////
-////RESPONSIVE LAYOUT
-////
+////RESPONSIVE LAYOUT**********************
 ///////////////////////
+@media all and (max-width: @mobileWidth) {
+  #mainContainer {
+    width: auto;
+  }
+
+  section {
+    width: auto;
+  }
+}

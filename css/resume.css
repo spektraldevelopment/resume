@@ -239,3 +239,11 @@ section {
   text-shadow: 1px 1px 3px #0a090f;
   color: #9ab6cc;
 }
+@media all and (max-width: 1000px) {
+  #mainContainer {
+    width: auto;
+  }
+  section {
+    width: auto;
+  }
+}
