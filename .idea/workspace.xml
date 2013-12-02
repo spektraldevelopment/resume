@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af20a2c-7b1c-4b93-9a8c-3a4b9c437d0d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/resume.css" afterPath="$PROJECT_DIR$/css/resume.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/resume.less" afterPath="$PROJECT_DIR$/css/resume.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -27,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1588" selection-end="1588" vertical-scroll-proportion="26.958334" vertical-offset="1082" max-vertical-offset="1725">
+            <state line="76" column="31" selection-start="4462" selection-end="4462" vertical-scroll-proportion="1.7729393" vertical-offset="0" max-vertical-offset="1725">
               <folding />
             </state>
           </provider>
@@ -47,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="resume.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/resume.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="19" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.5259146" vertical-offset="1815" max-vertical-offset="3960">
+            <state line="150" column="0" selection-start="2701" selection-end="2701" vertical-scroll-proportion="-18.75" vertical-offset="1800" max-vertical-offset="4170">
               <folding />
             </state>
           </provider>
@@ -75,8 +76,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/linkedin.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/resume.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -247,7 +248,11 @@
       <created>1385942190456</created>
       <updated>1385942190456</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changed about me paragraph colour.">
+      <created>1385942424317</created>
+      <updated>1385942424317</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -287,7 +292,8 @@
     <MESSAGE value="Added in actual descriptions in Experience section." />
     <MESSAGE value="Added repochecker." />
     <MESSAGE value="Forgot to add resume.css." />
-    <option name="LAST_COMMIT_MESSAGE" value="Forgot to add resume.css." />
+    <MESSAGE value="Changed about me paragraph colour." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed about me paragraph colour." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -295,7 +301,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="2" selection-start="2440" selection-end="2442" vertical-scroll-proportion="0.33282444" vertical-offset="1657" max-vertical-offset="7995">
+        <state line="17" column="7" selection-start="396" selection-end="396" vertical-scroll-proportion="0.38931298" vertical-offset="0" max-vertical-offset="7995">
           <folding />
         </state>
       </provider>
@@ -309,16 +315,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/resume.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1588" selection-end="1588" vertical-scroll-proportion="26.958334" vertical-offset="1082" max-vertical-offset="1725">
+        <state line="150" column="0" selection-start="2701" selection-end="2701" vertical-scroll-proportion="-18.75" vertical-offset="1800" max-vertical-offset="4170">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/resume.less">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="19" selection-start="2709" selection-end="2709" vertical-scroll-proportion="0.5259146" vertical-offset="1815" max-vertical-offset="3960">
+        <state line="76" column="31" selection-start="4462" selection-end="4462" vertical-scroll-proportion="1.7729393" vertical-offset="0" max-vertical-offset="1725">
           <folding />
         </state>
       </provider>

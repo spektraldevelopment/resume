@@ -31,6 +31,17 @@ section {
   margin: 10px 0;
   padding: 10px;
 }
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
 #mainContainer {
   background-color: rgba(215, 226, 237, 0.75);
   -webkit-border-radius: 4px;
