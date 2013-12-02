@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af20a2c-7b1c-4b93-9a8c-3a4b9c437d0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="resume.iws" />
@@ -298,7 +297,11 @@
       <created>1385950028393</created>
       <updated>1385950028393</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Decided to not pull in data from LinkedIn for now.">
+      <created>1385996244703</created>
+      <updated>1385996244703</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -346,7 +349,8 @@
     <MESSAGE value="Added some basic responsiveness to the layout if the width of the viewport goes below 1000px." />
     <MESSAGE value="Added Contact Me link, re-ordered links, remove public LinkedIn profile link since this page serves that purpose." />
     <MESSAGE value="Renamed linkedin.js because it will be used for non-linkedin stuff. Added basic Google Analytics tracking. Will test to confirm." />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed linkedin.js because it will be used for non-linkedin stuff. Added basic Google Analytics tracking. Will test to confirm." />
+    <MESSAGE value="Decided to not pull in data from LinkedIn for now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Decided to not pull in data from LinkedIn for now." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
