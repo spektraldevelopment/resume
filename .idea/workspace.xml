@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af20a2c-7b1c-4b93-9a8c-3a4b9c437d0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/resume.css" afterPath="$PROJECT_DIR$/css/resume.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/resume.less" afterPath="$PROJECT_DIR$/css/resume.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="resume.iws" />
@@ -27,11 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="38" selection-start="4082" selection-end="4096" vertical-scroll-proportion="-10.541667" vertical-offset="782" max-vertical-offset="1725">
-              <folding />
+            <state line="36" column="76" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.62986004" vertical-offset="135" max-vertical-offset="1740">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#noscript#0;n#span#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="resume.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/resume.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="327" column="43" selection-start="5613" selection-end="5613" vertical-scroll-proportion="0.63414633" vertical-offset="4489" max-vertical-offset="5145">
+            <state line="335" column="16" selection-start="5750" selection-end="5750" vertical-scroll-proportion="-22.333334" vertical-offset="4489" max-vertical-offset="5145">
               <folding />
             </state>
           </provider>
@@ -73,8 +74,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/linkedin.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/resume.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -282,7 +283,11 @@
       <created>1385944758421</created>
       <updated>1385944758422</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added some basic responsiveness to the layout if the width of the viewport goes below 1000px.">
+      <created>1385945307821</created>
+      <updated>1385945307821</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -327,7 +332,8 @@
     <MESSAGE value="Changed from id to class for company and school child elements. Commented out jQuery and linkedIn.js because they are not need at the moment." />
     <MESSAGE value="Added css to suppress FOUT when Typekit is loading on elements that are using it." />
     <MESSAGE value="Change to css to target just experienceTitle and educationTitle with FOUT suppression." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change to css to target just experienceTitle and educationTitle with FOUT suppression." />
+    <MESSAGE value="Added some basic responsiveness to the layout if the width of the viewport goes below 1000px." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some basic responsiveness to the layout if the width of the viewport goes below 1000px." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -336,7 +342,9 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="15" selection-start="5167" selection-end="5167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#noscript#0;n#span#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -366,17 +374,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/resume.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="38" selection-start="4082" selection-end="4096" vertical-scroll-proportion="-10.541667" vertical-offset="782" max-vertical-offset="1725">
+        <state line="335" column="16" selection-start="5750" selection-end="5750" vertical-scroll-proportion="-22.333334" vertical-offset="4489" max-vertical-offset="5145">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/resume.less">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="327" column="43" selection-start="5613" selection-end="5613" vertical-scroll-proportion="0.63414633" vertical-offset="4489" max-vertical-offset="5145">
-          <folding />
+        <state line="36" column="76" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.62986004" vertical-offset="135" max-vertical-offset="1740">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#noscript#0;n#span#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
