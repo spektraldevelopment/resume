@@ -128,10 +128,10 @@ section {
   line-height: 20px;
   color: #d7e2ed;
 }
-.wf-loading #experience h2 {
+.wf-loading #experienceTitle {
   visibility: hidden;
 }
-.wf-active #experience h2 {
+.wf-active #experienceTitle {
   visibility: visible;
 }
 #experienceTitle {
@@ -170,10 +170,10 @@ section {
 .description {
   color: #d7e2ed;
 }
-.wf-loading #education h2 {
+.wf-loading #educationTitle {
   visibility: hidden;
 }
-.wf-active #education h2 {
+.wf-active #educationTitle {
   visibility: visible;
 }
 #educationTitle {
